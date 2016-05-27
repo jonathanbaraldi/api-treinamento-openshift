@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 // Configura conexão
 var connection = mysql.createConnection({
-		host     : process.env.MYSQL,
+		host     : process.env.MYSQL_SERVICE_HOST,
 		user     : 'admin',
 		password : '12qwaszx',
 		database : 'books',
