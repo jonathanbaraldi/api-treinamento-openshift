@@ -3,6 +3,7 @@
 # run the application
 # /opt/application/run.sh
 ls
-mv /opt/app-root/src/teste.txt /opt/app-root/src/teste2.txt 
+
+cp /opt/app-root/src/teste.txt /opt/app-root/src/teste2.txt 
 
 # /opt/app-root/src 
