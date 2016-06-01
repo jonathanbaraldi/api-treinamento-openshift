@@ -35,9 +35,12 @@ app.use(function(req, res, next) {
 // GET
 app.get('/',function(req,res){
 	var data = {
-		"Data":""
+		"Data":"",
+		"env_variables":""
 	};
 	data["Data"] = "Welcome to Jon's API";
+	data["env_variables"] = process.env;
+
 	res.json(data);
 	console.log(data);
 });
