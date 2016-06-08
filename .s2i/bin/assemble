@@ -4,7 +4,7 @@
 # /opt/application/run.sh
 ls
 
-echo "mensagem do jon"
+echo "mensagem do administrador"
 # cp /opt/app-root/src/teste.txt /opt/app-root/src/teste2.txt 
 
 # /opt/app-root/src 
