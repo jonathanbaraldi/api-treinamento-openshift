@@ -1,0 +1,29 @@
+{
+  "name": "Node-APIs",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift 3",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.8.7",
+    "mysql": "^2.5.5"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "IP=0.0.0.0 PORT=8080 mocha --timeout 5000 tests/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanbaraldi/api-treinamento-openshift.git"
+  },
+  "author": "jonathanbaraldi <jonathanbaraldi@gmail.com>",
+  "license": "CC-BY-1.0",
+  "bugs": {
+    "url": "https://github.com/jonathanbaraldi/api-treinamento-openshift/issues"
+  },
+  "homepage": "https://github.com/jonathanbaraldi/api-treinamento-openshift"
+}
